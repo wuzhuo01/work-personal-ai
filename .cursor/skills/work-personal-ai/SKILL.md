@@ -1,8 +1,12 @@
 ---
-name: 工作个人AI化
-description: 先查文档桶再答（ASK）、人确认后回写经验（WRITEBACK）、半开放分类入库（ADD）。用户说「按工作个人 AI 化」「按规矩来」，或发出 ASK / ADD / WRITEBACK 时使用。禁止编造文档内容；任何写入必须人确认。
+name: work-personal-ai
+version: 0.1.0
+display_name: 工作个人AI化
+display_name_en: Personal Work AI
+description: Use when the user says 按工作个人 AI 化 / 按规矩来, or runs ASK / ADD / WRITEBACK: look up personal doc buckets first, write back only after human confirm, classify into five default buckets.
+description_zh: 先查文档桶再答（ASK）、人确认后回写经验（WRITEBACK）、半开放分类入库（ADD）。查不到就说没有；写入必须人确认。
+description_en: Look up personal doc buckets before answering (ASK), write back only after human confirm (WRITEBACK), and classify notes into five default buckets (ADD). Never invent document content.
 ---
-
 # 工作个人 AI 化
 
 把「先查再答 + 验收后回写 + 随手 ADD 入库」固定成可重复流程。事实只进文档桶，不进本 Skill。
